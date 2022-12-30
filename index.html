@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fafac0847f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img 4.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Blog</a></li>
+                        <li><a href="#contant">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Frontend Web Developer</p>
+                    <h1>Hi, I'm <span>Alik</span><br> Sarkar From India </h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img 7.jpg" class="user">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Hello, my name is Alik Sarkar and
+                            this is a representation of all that
+                            I have learned and accomplished
+                            as a student. Frontend Web
+                            Developer and passionate at
+                            learning and working.
+                            
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br> Web app Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-Intern</span><br>UNICompiler</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 Current</span><br> B.Tech in Computer Science & Technology</li>
+                                <li><span>2018-2020</span><br>Higher Secondary from Tehatta High School</li>
+                                <li><span>2012-2018</span><br>Madhyamik from Chanderghat High School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="cotainer">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum necessitatibus modi
+                            placeat. Error vero perspiciatis itaque voluptas sapiente possimus amet cupiditate non
+                            veniam unde recusandae corrupti, exercitationem quas expedita autem, voluptate, illum fuga
+                            ipsum velit rerum eligendi sit eos.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum necessitatibus modi
+                            placeat. Error vero perspiciatis itaque voluptas sapiente possimus amet cupiditate non
+                            veniam unde recusandae corrupti, exercitationem quas expedita autem, voluptate, illum fuga
+                            ipsum velit rerum eligendi sit eos.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-apple"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum necessitatibus modi
+                            placeat. Error vero perspiciatis itaque voluptas sapiente possimus amet cupiditate non
+                            veniam unde recusandae corrupti, exercitationem quas expedita autem, voluptate, illum fuga
+                            ipsum velit rerum eligendi sit eos.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img 1.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app conects you to the best developer people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img 2.png">
+                        <div class="layer">
+                            <h3>Face Emoji App</h3>
+                            <p>The app create your own face emoji.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img 3.png">
+                        <div class="layer">
+                            <h3>Tourist App</h3>
+                            <p>The app will help you to khow about the visited place and their own history.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="contant">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> aliksarkar906@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 6295404843 / 7047872194</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/aliksarkar.dipu?mibextid=ZbWKwL"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/AlikSarkar16?t=wO12PN_jFAR1SStE0tQlCg&s=09"><i
+                                    class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://instagram.com/alik_sarkar_18?igshid=ZDdkNTZiNTM="><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/alik-sarkar-901346225"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="my CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>copyright © A. Made by <i class="fa-solid fa-heart"></i> me</p>
+                </div>
+            </div>
+        </div>
+        <script src="myscript.js"></script>
+        
+
+        <script>
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },2000)
+                        form.reset()
+                    } )
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+
+</html>
